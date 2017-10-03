@@ -1,0 +1,178 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Resumegen:
+% WriteCodeEveryday(http://WriteCodeEveryday.github.io/)
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+\namesection{Melvin}{Mathew}{
+\urlstyle{same}\url{melvinm.me} \\
+\href{mailto:melvinm@usc.edu}{melvinm@usc.edu} |
++1 (213) 263-8988}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+
+\subsection{University of Southern California}
+\descript{MS in Computer Science}
+\location{May 2018}
+\sectionsep
+
+\subsection{Christ University}
+\descript{Bachelor of Technology Computer Science and Engineering}
+\location{May 2015}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links}
+
+Github:// \href{https://github.com/melvin15may}{\textbf{melvin15may}}\\
+311 contributions in the last year \\ 
+StackOverflow:// \href{https://stackoverflow.com/users/4646197/melvin-mathew}{user:4646197}\\
+~881 people reached \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+
+\subsection{Programming}
+Python \textbullet{} Javascript \textbullet{} PHP \textbullet{} HTML
+\sectionsep
+
+\subsection{Frameworks}
+Django \textbullet{} Pyramid  \textbullet{} Node.js \textbullet{} Sails.js \\
+Backbone.js \textbullet{} Angularjs \textbullet{} Jupyter \\
+Laravel
+\sectionsep
+
+\subsection{Databases}
+SQL Server \textbullet{} MySQL \textbullet{} MongoDB \\
+Redis
+\sectionsep
+
+\subsection{Other}
+Docker \textbullet{} Pandas \textbullet{} Apache Kafka  \\
+Flower \textbullet{} Circus \textbullet{} Socket.io \\
+BeautifulSoup \textbullet{} Unity3D \textbullet{} RabbitMQ \\
+PhoneGap \textbullet{} Git \textbullet{} Celery \\
+Django-channels \textbullet{} Azure Machine Learning Studio \\
+IBM Watson developer cloud \textbullet{} IBM Bluemix
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Southern California Clinical and Translational Science Institute}
+\descript{| Programmer - Performance Data Integration DataNexus }
+\location{May 2017 - Present | Los Angeles, California}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Develop and implement techniques for de-duplication and record linkage of data.
+\item Design patterns to link related data from different sources.
+\item Built and open-sourced a Microsoft SQL server connector for dedupeio.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{USC Roski School of Art and Design}
+\descript{| Web Developer and IT Support }
+\location{Dec 2016 - Present | Los Angeles, California}
+\begin{tightemize}
+\item Built web applications in Laravel for faculty reviews and inventory management.
+\item Setup help desk software, Spiceworks
+\item Setup Solarwinds for IT inventory management.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{National Resource for Network Biology}
+\descript{| Student Developer (Google Summer of Code 2017) }
+\location{May 2017 - Aug 2017 | }
+\begin{tightemize}
+\item Develop and implement notification system for open-source network biology project using Kafka and Django.
+\item Implemented real-time client-server communication with web-sockets.
+\item Tackling problems with real-time delivery of large amount of messages .
+\item Built Docker images for faster setup.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Innoneur IT Ventures Pvt Ltd}
+\descript{| Product Leader }
+\location{April 2015 - May 2016 | Trivandrum, India}
+\begin{tightemize}
+\item Collaborated with founder to develop concept of mapping for careers with a dataset of around 4 million records
+\item Consulted with career counselors and psychologists to develop machine learning algorithm to give job role recommendations
+\item Built, tested and deployed scalable, highly available and modular web application in Azure environment
+\item Implemented innovative systems for data collection and management of data for training the algorithm
+\item Integrated third party APIs to identify user habits
+\item Developed in Microsoft Machine Learning Studio and IBM Watson Developer Cloud
+\item Programmed in Pyramid, Sails.js and AngularJS
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Innoneur IT Ventures Pvt Ltd}
+\descript{| Software Developer Intern }
+\location{Nov 2014 - March 2015 | Trivandrum, India}
+\begin{tightemize}
+\item Built and tested a PhoneGap application for iOS and Android
+\item Developed on Backbone.js, jQuery and d3.js
+\end{tightemize}
+\sectionsep
+
+\runsubsection{GreedyGame Media}
+\descript{| Software Developer Intern }
+\location{April 2014 - May 2014 | Noida, India}
+\begin{tightemize}
+\item Built a plugin for Unity Game Engine in C\# for dynamically changing the game objects on load.
+\item Developed backend APIs for polling and location mapping in Django framework.
+\end{tightemize}
+\sectionsep
+
+\end{minipage}
+\end{document}  \documentclass[]{article}
